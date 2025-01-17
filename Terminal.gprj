@@ -1,0 +1,25 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
+    <FileList>
+        <File path="src/ANSI_terminal_decode.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/VGA_FONT_prom/VGA_FONT_prom.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/font_lookup.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/screen_location_pkg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/vga_dvi_tx/vga_dvi_tx.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/vga_fast_clock_rpll/vga_fast_clock_rpll.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/vga_frame_buf/vga_frame_buf.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/vga_frame_gen.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/vga_pix_clkdiv/vga_pix_clkdiv.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/vga_sample_buf/vga_sample_buf.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/vga_text_display.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/vga_text_top.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/video_types_pkg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/vga_text.cst" type="file.cst" enable="1"/>
+        <File path="src/timings.sdc" type="file.sdc" enable="1"/>
+        <File path="src/vga_dvi.rao" type="file.gao" enable="1"/>
+    </FileList>
+</Project>
